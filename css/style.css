@@ -1,0 +1,190 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+header {
+    background: linear-gradient(to right bottom, #66a6ff, #89f7fe);
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+header nav {
+    word-spacing: 30px;
+    padding-bottom: 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 12pt;
+}
+
+header nav a:hover{
+    border-bottom: solid white;
+}
+
+main {
+    display: flex;
+}
+
+main article {
+    flex-grow: 2;
+}
+
+main article form {
+    width: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid #66a6ff;
+    border-width: 1.5px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+
+main article form center h3 {
+    color: #66a6ff;
+}
+
+main article form table{
+    border-collapse:separate;
+    border-spacing: 5px 55px;
+}
+
+main article form table tr td {
+    color: #66a6ff;
+}
+
+main article form table tr td input {
+    border: solid #66a6ff;
+    border-width: 1px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main article form button {
+    margin-top: 25px;
+}
+
+main article form button#submit{
+    color: #66a6ff;
+    border: solid #66a6ff;
+    width: 100px;
+    border-width: 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+main article form button#clear{
+    color: #eb3440;
+    width: 100px;
+    border: solid #eb3440;
+    border-width: 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 50px;
+    background: white;
+}
+
+main article form button#submit:hover{
+    color: white;
+    background: #66a6ff;
+    border-width: 1px;
+}
+
+main article form button#clear:hover{
+    color: white;
+    background: #eb3440;
+    border-width: 1px;
+}
+
+main article table#result {
+    width: 965px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: solid #66a6ff;
+    border-width: 1.5px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+main article table tr#title {
+    background-color: #66a6ff;
+    padding: 10px 20px;
+    color: white;
+}
+
+aside {
+    color: white;
+    background: linear-gradient(to top,#66a6ff, #89f7fe);
+    height: auto;
+    display: block;
+    flex-grow: 1;
+    padding: 10px 50px;
+}
+
+aside {
+    text-align: center;
+}
+main aside header {
+    background: none;
+}
+
+main aside article p {
+    text-align: justify;
+    font-size: 12pt;
+}
+
+aside article img {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #66a6ff, #89f7fe);
+    color: white;
+    padding: 10px 50px 30px 50px;
+    height: auto;
+    display: flex;
+}
+
+footer .box-title {
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+footer .box-images {
+    flex-grow: 15;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+footer .box-copyright {
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+footer #title {
+    border-right: solid white;
+}
+
+footer #images {
+    display: inline;
+}
+
+footer #images a img {
+    padding: 20px 10px 10px 10px;
+    width: 30px;
+    height: 30px;
+}
+
+footer #copyright p {
+    font-size: 12pt;
+}
